@@ -10,7 +10,7 @@
 5. 打开[src/index.js](src/index.js)，参照注释修改其中第6行的`id`等参数；
 6. 执行：
     ```bash
-    node ./src/index.js [tid]
+    node ./src/index.js
     ```
 
 耐心等待，控制台提示`条目源代码已保存到...`即代表完成，生成的wiki源代码在output文件夹内。
