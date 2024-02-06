@@ -77,7 +77,7 @@ for (const { href, date, work, chara, version } of data.reverse()) {
         if (pageInfo[0].pageid) {
             console.log(`获取到萌百页面：${title}→${pageInfo[0].title}`);
             title = `[[${pageInfo[0].title}]]`;
-        } else if (!/^[a-zA-Z0-9-:_ ]+$/.test(title)) {
+        } else if (!/^[a-zA-Z0-9-+*~～:;_ /\\?!,.]+$/.test(title)) {
             title = `{{lj|${pageInfo[0].title}}}`;
         }
     } catch (error) {
